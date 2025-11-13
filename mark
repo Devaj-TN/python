@@ -1,0 +1,14 @@
+a = input("Enter name: ")
+b = int(input("Enter mark: "))
+if b <= 100 and b > 90:
+    g = "A"
+elif b >= 80:
+    g = "B"
+elif b >= 70:
+    g = "C"
+elif b >= 60:
+    g = "D"
+else:
+    g = "F"
+s = {"name": a, "mark": b, "grade": g}
+print(s)

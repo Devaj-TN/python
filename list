@@ -1,0 +1,11 @@
+import numpy as np
+m1 = np.array([[1,2,3], [4,5,6]])
+m2 = np.array([[4,5,6], [1,2,3]])
+a = m1 + m2
+s = m1 - m2
+m = m1 * m2
+tp= m1.T
+print("Addition:\n", a)
+print("Subtraction:\n", s)
+print("Multiplication:\n", m)
+print("Transpose of first matrix:\n", tp)
